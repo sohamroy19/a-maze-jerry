@@ -1,10 +1,16 @@
 # mms-cpp
 
 A Micromouse maze-solving algorithm in C++.
-Basic Micromouse Solver for 16 x 16 square grids, where the mouse starts from the
-lower left corner while facing northwards.
+Basic Micromouse Solver for 16 x 16 square grids,
+where the mouse starts from the lower left corner while facing northwards
+and the target is any one of the four central squares.
 
-Made by a-MAZE! for Shaastra 2021 @ IIT-M on 23-02-2021
+Made by a-MAZE!:  @sohamroy19
+                  @Chinmaya6699
+                  @Ishaan1742
+                  @The-Dark-Lord-0b111
+                  @wigglytuff-tu
+for Shaastra 2021, IIT-M on 23-02-2021.
 
 For use with [mackorone/mms](https://github.com/mackorone/mms), a Micromouse simulator.
 
@@ -31,4 +37,3 @@ Linux (Ubuntu):
 - If you're using Windows, you may need to download and install [MinGW](http://mingw.org/wiki/Getting_Started)
 - Communication with the simulator is done via stdin/stdout, use stderr to print output
 - Descriptions of all available API methods can be found at [mackorone/mms#mouse-api](https://github.com/mackorone/mms#mouse-api)
-- The example code is a simple left wall following algorithm
